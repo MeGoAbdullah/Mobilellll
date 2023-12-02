@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group members</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Internal CSS for list styles */
+        #members-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        #members-list li {
+            font-size: 18px;
+            margin-bottom: 8px;
+            background-color: #f9f9f9;
+            padding: 8px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+<body>
+    <header class="page-header">
+        <nav class="globals">
+            <div class="header">
+                <a href="#9" class="logo">
+                    Mobile-Shop
+                </a>
+                <div class="search-bar">
+                    <input type="search" placeholder="what are you looking for?" id="search" spellcheck="false"
+                        data-ms-editor="true">
+                </div>
+            </div>
+            <div>
+                <a href="login.html" class="account">
+                    <span>
+                        Login
+                    </span>
+                </a>
+                <a href="register.html" class="account">
+
+                    <span>
+                        SignUp
+                    </span>
+                </a>
+
+            </div>
+        </nav>
+        <hr>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About us</a>
+                </li>
+                <li>
+                    <a href="groupmempers.html">Group members</a>
+                </li>
+                <li>
+                    <a href="contact.html">contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="pagei">
+        <div class="page-container">
+            <main class="page-body">
+                <section style="
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;">
+                    <h1 class="section-title">
+                        Group Members
+                    </h1>
+                    <section id="content">
+                        <ul id="members-list">
+                            <!-- Names will be displayed here dynamically -->
+                        </ul>
+                    </section>
+                </section>
+            </main>
+        </div>
+</body>
+
+</html>
